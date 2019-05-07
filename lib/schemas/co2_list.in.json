@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "ppm": {
+            "required": false,
+            "type": "number"
+        },
+        "date": {
+            "required": false,
+            "type": "string"
+        },
+        "date__range": {
+            "required": false,
+            "type": "string"
+        },
+        "ordering": {
+            "required": false,
+            "type": "string"
+        },
+        "page": {
+            "required": false,
+            "type": "integer"
+        },
+        "limit": {
+            "required": false,
+            "type": "integer"
+        }
+    }
+}
